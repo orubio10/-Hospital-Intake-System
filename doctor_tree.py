@@ -52,3 +52,11 @@ tree.insert("Dr. Reno", "Dr. Carson", "right")
 tree.insert("Dr. Reno", "Dr. Chase", "left")
 
 print(tree.preorder(tree.root))
+
+design_memo = """
+A tree is appropriate for the doctor’s structure because it shows relationships clearly. It’s organized and structured like a hospital. Using a binary tree makes it easy to set a clear chain of command, where each doctor can have two subordinates. It’s simple to add, view, and see who reports to whom. It also fits real-life systems that have leaders and multiple levels of management.
+
+Software may use different tree traversals depending on what needs to be done. These methods let engineers process data in a specific and logical way. Preorder is useful when you want to handle the boss first and then the team. Inorder is good when engineers need a sorted order, like names. Postorder helps when dealing with the smaller parts before the main ones, like deleting or finishing lower tasks before higher ones.
+
+Heaps help simulate real-time systems like emergency rooms because they automatically keep the most important or urgent items at the top. When a new patient comes in, the heap reorganizes itself quickly without sorting everything again, so the system always knows which patient needs attention first. This keeps things fast and efficient.
+""" 
